@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJ 1.2</title>
+</head>
+<body>
+    
+    <script>
+        class Person{
+            constructor(ime, prezime){
+                this.ime = ime;
+                this.prezime = prezime;
+            }
+            
+            pozdravi(){
+                console.log("pozdrav " + this.ime + this.prezime);
+            }
+        }
+
+        var Svetlana = new Person("Svetlana ", "Saletovic");
+        Svetlana.pozdravi();
+    </script>
+</body>
+</html>
